@@ -26,6 +26,11 @@ export default function Layout2({
             <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
               {children}
             </div>
+        <footer className="footer footer-center p-4 bg-white shadow-10 text-base-content">
+  <aside>
+    <p>Copyright © 2024 <a href="/landingpage" className="text-[#f15a23]">IdeaBox BNI</a> - All right reserved by PT Bank Negara Indonesia (Persero) Tbk</p>
+  </aside>
+</footer>
           </main>
           {/* <!-- ===== Main Content End ===== --> */}
         </div>

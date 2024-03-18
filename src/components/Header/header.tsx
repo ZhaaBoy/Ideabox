@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Link as LinkScroll } from "react-scroll";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -56,7 +55,7 @@ export default function Header2(
                 <div className="hidden flex-none font-bold lg:block">
                   <ul className="menu menu-horizontal">
                     <li className="pl-5">
-                      <Link href="/landingpage" className="hover:bg-white hover:text-[#f3430b]"
+                      <Link href="/" className="hover:bg-white hover:text-[#f3430b]"
                      >
                         Home
                       </Link>
@@ -100,7 +99,7 @@ export default function Header2(
                 </Link>
                 {/* Sidebar content here */}
                 <li className="py-2 pl-5">
-                  <Link href="/landingpage" className="hover:bg-white hover:text-[#f3430b]">
+                  <Link href="/" className="hover:bg-white hover:text-[#f3430b]">
                     Home
                   </Link>
                 </li>
